@@ -35,7 +35,17 @@ translate.word = "Go"
 Call the built in twi() method to get the output
 
 ```ruby
-translate.to_twi # => Ko
+translate.to_twi # => The meaning of "Go" in twi is Ko
+```
+
+If word was not found it gives you a nice reply :)
+
+```ruby
+translate.word = "abdef"
+```
+
+```ruby
+translate.to_twi # => Sorry, word was not found on the list.
 ```
 
 ## Contributing
