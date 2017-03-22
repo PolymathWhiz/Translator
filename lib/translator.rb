@@ -3,6 +3,7 @@ require "translator/twi"
 require 'json'
 
 module Translator
+  class Translator
   attr_accessor :word
 
   def to_twi(word = @word)
@@ -17,5 +18,5 @@ module Translator
       puts "Sorry, word was not found on the list."
     end
   end
-
+  end
 end
