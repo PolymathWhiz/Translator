@@ -26,10 +26,16 @@ Create an instance of the Translator Class
 translate = Translator.new
 ```
 
-Call the built in twi() method passing the english word as an argument
+Assign the word to be translated
 
 ```ruby
-translate.to_twi("Go") # => Ko
+translate.word = "Go"
+```
+
+Call the built in twi() method to get the output
+
+```ruby
+translate.to_twi # => Ko
 ```
 
 ## Contributing
@@ -40,4 +46,4 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/polyma
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
-&copy; 2017 Miracle Anyanwu
+&copy; 2017 Miracle Anyanwu.
