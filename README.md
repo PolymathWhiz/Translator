@@ -35,7 +35,7 @@ translate.word = "Go"
 Call the built in twi() method to get the output
 
 ```ruby
-translate.to_twi # => The meaning of "Go" in twi is Ko
+translate.to_twi # => The translation of "Go" in twi is Ko
 ```
 
 If word was not found it gives you a nice reply :)
@@ -52,8 +52,10 @@ translate.to_twi # => Sorry, word was not found on the list.
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/polymathwhiz/translator.
 
+Contributions are also accepted.
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
-&copy; 2017 Miracle Anyanwu.
+&copy; 2017 Miracle Anyanwu. 
